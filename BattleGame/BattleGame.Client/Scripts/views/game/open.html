@@ -1,0 +1,17 @@
+﻿<div class="row">
+    {{#games}}
+    <div class="col-lg-4">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <a href="#/game/open/{{id}}" id="open-game"><b>{{title}}</b></a>
+            </div>
+            <div class="panel-footer">from {{creator}}</div>
+        </div>
+    </div>
+    {{/games}}
+    {{^games}}
+    <div class="col-lg-4">
+        <p>No open games</p>
+    </div>
+    {{/games}}
+</div>

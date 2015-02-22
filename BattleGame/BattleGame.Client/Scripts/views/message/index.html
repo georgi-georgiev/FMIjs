@@ -1,0 +1,11 @@
+﻿<h2 style="text-align: center;">Messages</h2>
+<div class="messages well">
+    {{#all}}
+    {{#state}}
+    <p style="color: gray;">{{text}}</p>
+    {{/state}}
+    {{^state}}
+    <p style="color: black;"><b>{{text}}</b></p>
+    {{/state}}
+    {{/all}}
+</div>

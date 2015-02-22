@@ -1,0 +1,12 @@
+﻿<div class="row">
+    {{#games}}
+    <div class="col-lg-4">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="#/game/play/{{id}}/{{status}}"><b>{{title}}</b></a> from <i>{{creator}}</i>
+                <span class="badge">{{status}}</span>
+            </li>
+        </ul>
+    </div>
+    {{/games}}
+</div>

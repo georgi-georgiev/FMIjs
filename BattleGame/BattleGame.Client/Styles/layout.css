@@ -1,0 +1,116 @@
+﻿.navbar{
+    margin-top: 10px;
+}
+#footer{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+#toast-container{
+    margin-top: 70px;
+}
+#signup {
+	width: 500px;
+	margin: 100px auto;
+	border: 1px solid #808080;
+}
+#user-nickname {
+	color: #ffffff;
+    margin-right: 10px;
+}
+#content{
+    padding: 10px;
+}
+.messages{
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    overflow-y: scroll;
+}
+#game-info{
+    
+}
+#game-field{
+    width: 1000px;
+    margin: 0 auto;
+}
+.game-field-action:hover{
+    opacity: 0.5;
+}
+.game-field-box,.game-field-box-warrior-red, .game-field-box-ranger-red, .game-field-box-ranger-blue, .game-field-box-warrior-blue {
+	width: 100px;
+	height: 100px;
+	float: left;
+    margin: 5px;
+}
+.game-field-box {
+	background: #e2e2e2;
+}
+.game-field-box-ranger-red, .game-field-box-warrior-red {
+	background-color: #ff0000;
+}
+.game-field-box-ranger-blue, .game-field-box-warrior-blue {
+	background-color: #0000ff;
+}
+.game-field-box-ranger-red, .game-field-box-ranger-blue {
+	background-image: url("../Images/ranger.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+    background-size: contain;
+    background-position-x: right;
+}
+.game-field-box-warrior-red, .game-field-box-warrior-blue {
+	background-image: url("../Images/warrior.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+    background-size: contain;
+    background-position-x: left;
+}
+.attack{
+    background-image: url("../Images/attack.png");
+    width: 20px;
+    padding-left: 20px;
+    background-size: contain;
+    color: #ffffff;
+}
+.range{
+    background-image: url("../Images/range.png");
+    width: 20px;
+    padding-left: 20px;
+    background-size: contain;
+    color: #ffffff;
+}
+.speed{
+    background-image: url("../Images/speed.png");
+    width: 20px;
+    padding-left: 20px;
+    background-size: contain;
+    color: #ffffff;
+}
+.hp{
+    background-image: url("../Images/hp.png");
+    width: 20px;
+    margin-right: 15px;
+    padding-left: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+.armor{
+    background-image: url("../Images/armor.png");
+    width: 20px;
+    margin-right: 15px;
+    padding-left: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}

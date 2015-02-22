@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Battle Game</title>
+    <link href="Styles/bootstrap.css" rel="stylesheet" />
+    <link href="Styles/layout.css" rel="stylesheet" />
+    <link href="Styles/toastr.css" rel="stylesheet" />
+    <script src="Scripts/lib/require.js"></script>
+    <script>
+        require(['./Scripts/common'], function (common) {
+            require(['./app/main']);
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div id="main">
+        </div>
+        <footer id="footer">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Made by <a href="http://g-georgiev.com">Georgi Georgiev</a>. Contact him at <a href="mailto:bracer@abv.bg">bracer@abv.bg</a>.</p>
+                    <p>Code released under the <a href="https://github.com/georgi-georgiev/FMIjs/blob/master/LICENSE">MIT License</a>.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+
